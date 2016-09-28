@@ -3,7 +3,9 @@ __author__ = 'Sumod Madhavan'
 from collections import deque
 import os
 
+
 class StringTrie:
+
 	def __init__(self):
 		self.numNodes = 0
 		self.root = TrieNode("", None)
